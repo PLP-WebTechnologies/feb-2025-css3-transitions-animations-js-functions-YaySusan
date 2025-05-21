@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background: #8a2be2;
+  transition: all 0.5s ease;
+}
+
+.animate {
+  transform: rotate(180deg) scale(1.5);
+  background: #ff69b4;
+}
